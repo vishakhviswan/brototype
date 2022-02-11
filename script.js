@@ -69,26 +69,3 @@ gsap.to(".ball-3", {
     y: 390,
     duration: 4
 });
-
-
-
-//code
-
-gsap.from(".code", {
-    scrollTrigger: ".code",
-    x: 250,
-    duration: 2,
-    opacity: 1,
-    stagger: 0.5
-});
-
-//smooth scrolling using scrollerProxy.
-
-ScrollTrigger.scrollerProxy("body", {
-    scrollTop(value) {
-        if (arguments.length) {
-            bodyScrollBar.scrollTop = value;
-        }
-        return bodyScrollBar.scrollTop;
-    }
-});
