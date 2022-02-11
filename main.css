@@ -194,10 +194,7 @@ a{
     transition-timing-function: ease-in;
     transition: 2s;
 }
-.vid-div:hover{
-    border: 1px dashed;
-    transform: rotate(360deg);
-}
+
 .learning{
     font-size: 1.6rem;
     display: flex;
@@ -388,6 +385,10 @@ a{
         width: 25rem;
         height: 25rem;
     }
+    .vid-div:hover{
+    border: 1px dashed;
+    transform: rotate(360deg);
+}
     .learning{
         font-weight: 700;
     }
