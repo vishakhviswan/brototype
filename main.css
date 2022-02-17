@@ -405,3 +405,10 @@ a{
         margin-left: 5%;
     }
 }
+.container {
+  padding: 1rem;
+  line-height: 5px;
+}
+.container h3 {
+  color: #b94c33;
+}
